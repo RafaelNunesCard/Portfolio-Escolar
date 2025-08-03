@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caixa{
+    text-align: center;
+    margin: 0 auto;
+}
+
+label, textarea{
+    display: block;
+}
+
+textarea{
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+}
+
+header{
+    font-size: 2vh;
+    background-color: orange;
+    color: aliceblue;
+    width: 100% auto;
+    height: 10px;
+    padding: 20px;
+}
+
+.volta{
+    position: absolute;
+    
+}
+
+a:link{
+    color: royalblue;
+}
+a:hover{
+    color: purple;
+}
+ 
+.caixa{
+    text-align: center;
+}
+button{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(189, 102, 102);
+}
+button:hover{
+    background-color: rgb(224, 187, 85);
+    
+}
+#contatos{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    text-align: left;
+    vertical-align: bottom;
+}
+input{
+    color: green;
+}
+

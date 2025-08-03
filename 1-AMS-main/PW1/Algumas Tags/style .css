@@ -1,0 +1,37 @@
+    body{
+        background-color: royalblue;
+        color: whitesmoke;
+        background-image: url("img/god.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    a:link {
+        color: red;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: pink;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      #astro{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        border: solid black 5px;
+        padding: 0;
+      }
+      
+      table, td,  th {
+        border: solid black 2px;
+      }

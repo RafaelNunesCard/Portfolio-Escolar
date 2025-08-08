@@ -7,6 +7,8 @@
         padding: 0;
     }
 
+    /*Header*/
+
     header{
         position: fixed;
         top: 15px;
@@ -35,6 +37,8 @@
         background-color: #360e4f;
     }
 
+    /*Banner de Entrada*/
+
     #banner1{
         background-color: #360e4f;
         background-image: url('Imagens/fundo001.avif');
@@ -53,7 +57,7 @@
         color: white;
         position: absolute;
         left: 30px;
-        top: 18%;
+        top: 16%;
     }
 
     #text1 > h1{
@@ -87,8 +91,11 @@
     section > h1{
         text-align: center;
         font-size: 2em;
-        margin: 54px;
+        margin: 20px;
+
     }
+
+    /*Tabela*/
 
     #tabela-container{
         display: flex;
@@ -137,6 +144,8 @@
         justify-content: center;
     }
 
+    /*Seções*/
+
     #seções{
         display:flex;
         justify-content: center;
@@ -144,13 +153,20 @@
     }
 
     .container{
-        width: 30vw;
-        height: 60vh;
-        margin: 20px;
+        width: 33vw;
+        height: 80vh;
+        margin: 15px;
+        margin-bottom: 30px;
         border: 3px solid rgb(97, 97, 97);
         border-radius: 10px;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.692);
+    }
+
+    .container:hover{
+        padding: 1px;
+        background-color: #360e4f;
+        color: white;
     }
 
     .img-seções{
@@ -162,19 +178,23 @@
     #img-seções-1{
         background-image: url('Imagens/Pessoafeliz1.jpg');
         background-size: cover;
-        border-radius: 8px 0px 0px 8px;
+        border-radius: 7px 7px 0px 0px;
     }
 
     #img-seções-2{
         background-image: url('Imagens/Pessoafeliz2.jpg');
         background-size: cover;
-        border-radius: 8px 0px 0px 8px;
+        border-radius: 7px 7px 0px 0px;
     }
 
     #img-seções-3{
         background-image: url('Imagens/Pessoafeliz3.jpg');
         background-size: cover;
-        border-radius: 8px 0px 0px 8px;
+        border-radius: 7px 7px 0px 0px;
+    }
+
+    .container > p {
+        font-size: 14px;
     }
 
     .seções-button{
@@ -183,45 +203,45 @@
         border: 3px solid black;
         border-radius: 6px;
         padding: 10px;
-        font-size: 1.7vh;
+        font-size: 2.3vh;
         font-weight: bold;
+        width: 100px;
+        margin: 10px;
     }
 
     .seções-button:hover{
         background-image: radial-gradient(circle, #7c34a6 , #7c34a6ea);
         color: white;
+        border: 3px solid white;
     }
+
+    /*Footer*/
 
     footer{
         display: flex;
         background-color: #7c34a6;
         color: white;
         padding: 2px;
-        justify-content: right;
+        justify-content: center;
         text-align: center;
     }
 
     #footer-{
         text-align: left;
-        width: 32vw;
-    }
-
-    #footer-logo{
-        width: 40px;
-        height: 40px;
-        border-radius: 40px;
-        padding: 8px;
+        width: 33vw;
+        margin: 15px;
     }
 
     #footer-comentário{
-        width: 30vw;
-        margin-right: 16vw;
-        justify-content: center;
+        width: 33vw;
+        margin: 15px;
+        justify-content:center;
     }
 
     #Comentário{
-        width: 400px;
+        width: 33vw;
         height: 150px;
+        margin: 15px;
     }
 
     #footer-comentário > button{

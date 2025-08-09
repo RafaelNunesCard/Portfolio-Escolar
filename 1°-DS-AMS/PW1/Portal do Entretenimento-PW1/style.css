@@ -154,7 +154,7 @@
 
     .container{
         width: 33vw;
-        height: 80vh;
+        height: 70vh;
         margin: 15px;
         margin-bottom: 30px;
         border: 3px solid rgb(97, 97, 97);
@@ -194,18 +194,18 @@
     }
 
     .container > p {
-        font-size: 14px;
+        font-size: 19px;
     }
 
     .seções-button{
-        background-image: radial-gradient(circle, #9261ada6 , #9261adb9);
+        background-image: radial-gradient(circle, #9261ad9a , #9261adab);
         color: black;
         border: 3px solid black;
         border-radius: 6px;
         padding: 10px;
         font-size: 2.3vh;
         font-weight: bold;
-        width: 100px;
+        width: 150px;
         margin: 10px;
     }
 
@@ -228,20 +228,20 @@
 
     #footer-{
         text-align: left;
-        width: 33vw;
+        width: 25vw;
         margin: 15px;
     }
 
     #footer-comentário{
         width: 33vw;
-        margin: 15px;
-        justify-content:center;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #Comentário{
-        width: 33vw;
+        width: 20vw;
         height: 150px;
-        margin: 15px;
+        margin: 10px;
     }
 
     #footer-comentário > button{
@@ -251,7 +251,7 @@
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.55);
         font-size: 2vh;
-        margin: 20px;
+        margin: 10px;
     }
 
      #footer-comentário > button:hover{

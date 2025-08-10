@@ -61,7 +61,7 @@
     }
 
     #text1 > h1{
-        font-size: 6vh;
+        font-size: 5.6vh;
         margin-bottom: 70px;
     }
 
@@ -75,7 +75,7 @@
     }
 
     #botão1{
-        width: 140px;
+        width: 150px;
         height: 50px;
         background-color: rgba(0, 0, 0, 0.050);
         color: white;
@@ -125,7 +125,7 @@
     }
 
     #botão2{
-        width: 140px;
+        width: 150px;
         height: 50px;
         background-color: #9261ad;
         color: white;

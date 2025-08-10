@@ -7,6 +7,8 @@
         padding: 0;
     }
 
+    /*Header*/
+
     header{
         position: fixed;
         top: 15px;
@@ -36,18 +38,61 @@
     }
 
     section{
-        text-align: center;
+        text-align: left;
     }
-    
-    #seções{
+
+    /*Todos h1 filhos de main*/
+
+    main > h1{
+        margin: 40px;
+    }
+
+    /*Banner 1*/
+
+    #banner{
+        background-image: radial-gradient(circle, #7f19b6 , #943fc2);
+        color: white;
+        width: 100%;
+        height: 60vh;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
         display:flex;
         justify-content: center;
         align-items: center;
+        gap: 150px;
+    }
+
+    #text-1{
+        width: 800px;
+        font-size: 20px;
+    }
+
+    #text-1 > h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #img-banner{
+        width: 700px;
+        height: 70%;
+        background-image: url('Imagens/Equipe-podcast.jpg');
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    /*Seção-1*/
+    
+    .seções{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
 
     .container{
         width: 35vw;
-        height: 80vh;
+        height: 70vh;
         margin: 15px;
         border: 3px solid rgb(97, 97, 97);
         border-radius: 10px;
@@ -79,6 +124,15 @@
         border-radius: 8px 0px 0px 8px;
     }
 
+    .container > p{
+        font-size: 20px;
+    }
+
+    .container > ul,ol > li{
+        font-size: 20px;
+        text-align: left;
+    }
+
     .seções-button{
         background-image: radial-gradient(circle, #9261ada6 , #9261adb9);
         color: black;
@@ -94,7 +148,64 @@
         color: white;
     }
 
-     footer{
+    /*IFrame Celular*/
+
+    #container-iframe{
+        height: 90vh;
+        margin-bottom: 40px;
+        background-color: rgb(226, 213, 233);
+    }
+
+    iframe{
+        width: 75%;
+        height: 78%;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+
+    #botão-iframe{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a > button{
+        background-size: cover;
+        box-shadow: inset 0px 0px 20px;
+        border-radius: 55%;
+        padding: 35px;
+        margin: 30px;
+    }
+
+    a > button:hover{
+        padding: 40px;
+        margin: 25px;
+    }
+    
+    #Youtube{
+        background-image: url('https://cdn-icons-png.flaticon.com/512/270/270834.png');
+    }
+
+    #Twitter{
+        background-image: url('Imagens/twitter-x-icon-png.png');
+    }
+
+    #Home{
+        background-image: url('https://www.freeiconspng.com/uploads/home-icon-png-31.png');
+        background-position: center center;
+    }
+
+    #Spotify{
+        background-image: url('data:image/png;base64,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');
+    }
+
+    #Instagram{
+        background-image: url('Imagens/intagram\ icon.webp');
+    }
+
+    /*footer*/
+
+    footer{
         display: flex;
         background-color: #7c34a6;
         color: white;
@@ -105,20 +216,20 @@
 
     #footer-{
         text-align: left;
-        width: 33vw;
+        width: 25vw;
         margin: 15px;
     }
 
     #footer-comentário{
         width: 33vw;
-        margin-right: 50px;
-        justify-content:center;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #Comentário{
-        width: 33vw;
+        width: 20vw;
         height: 150px;
-        margin: 15px;
+        margin: 10px;
     }
 
     #footer-comentário > button{
@@ -128,7 +239,7 @@
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.55);
         font-size: 2vh;
-        margin: 20px;
+        margin: 10px;
     }
 
      #footer-comentário > button:hover{

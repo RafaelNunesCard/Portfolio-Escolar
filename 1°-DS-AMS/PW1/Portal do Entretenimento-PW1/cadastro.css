@@ -102,6 +102,19 @@
         background-color: #2f024b;
     }
 
+    .control-genero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+
+    .control-genero label{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
     /*Erro e Sucesso*/
 
     .form-control.sucesso input{

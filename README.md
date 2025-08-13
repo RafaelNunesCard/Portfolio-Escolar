@@ -2,7 +2,7 @@
 Este portfólio reunirá todas as tarefas e exercícios realizados durante o ano letivo. Nele, você encontrará uma coleção organizada por disciplinas do curso
 
 # TPA
-Professor pediu para colocar a print no readme
+O Professor Marcelo solicitou que incluíssemos uma captura de tela do código Java em execução no README.
 
 <img width="355" height="151" alt="Captura de tela 2025-08-13 091847" src="https://github.com/user-attachments/assets/3bcfaacf-99e6-4ba6-9671-f99a4b18baff" />
 

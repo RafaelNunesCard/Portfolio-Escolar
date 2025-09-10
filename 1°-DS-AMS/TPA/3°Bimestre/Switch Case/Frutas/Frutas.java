@@ -11,6 +11,6 @@ package com.mycompany.frutas;
 public class Frutas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }

@@ -114,28 +114,3 @@
         margin-left: 12%;
         margin-right: 12%;
     }
-
-    /*Erro e Sucesso*/
-
-    .form-control.sucesso input{
-        border-color:  #2ecc71;
-    }
-
-    .form-control.error input{
-        border-color:  #e74c3c;
-    }
-
-    .form-control.sucesso i.fa-check-circle{
-        color: #2ecc71;
-        visibility: visible;
-    }
-
-    .form-control.error i.fa-exclamation-circle{
-        color: #e74c3c;
-        visibility: visible;
-    }
-
-    .form-control.error small{
-        color: #e74c3c;
-        visibility: visible;
-    }

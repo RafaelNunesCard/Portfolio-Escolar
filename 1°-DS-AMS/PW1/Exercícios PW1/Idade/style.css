@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: rgba(65, 105, 225, 0.856);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  color: white;
+}
+
+form {
+  position: relative;
+  width: 90%;
+  display: none;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.7rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+/*Botão "Clique em Mim"*/
+.bnt {
+  position: relative;
+  padding: 1rem 2rem;
+  margin: 1.1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out, color 0.3s ease 0.5s;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: -8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bnt:hover {
+  letter-spacing: 3px;
+  transition: 0.2s ease-in-out, color 0.3s ease 0s;
+  color: black;
+}
+
+.bnt::after,
+.bnt::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: white;
+  width: 3%;
+  height: 100%;
+  box-shadow: 1px 1px 15px white;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.bnt::after {
+  left: -6px;
+  box-shadow: inset 0px 7px 0px rgba(0, 0, 0, 0.1);
+}
+.bnt::before {
+  right: -6px;
+  box-shadow: inset -7px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bnt:hover::after {
+  width: 50%;
+  left: 0;
+  border-radius: 0;
+}
+
+.bnt:hover::before {
+  width: 50%;
+  right: 0;
+  border-radius: 0;
+}
+
+#clique:checked ~ .bnt::after {
+  width: 50%;
+  left: 0;
+  border-radius: 0;
+}
+
+#clique:checked ~ .bnt::before {
+  width: 50%;
+  right: 0;
+  border-radius: 0;
+}
+
+#clique:checked ~ .bnt {
+  color: black;
+}
+
+#clique:checked ~ form {
+  display: block;
+}
+
+/*Formulario */
+label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  font-size: 1.1rem;
+  color: rgb(250, 250, 250);
+}
+
+#nascimento {
+  width: 90%;
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 3px solid white;
+  color: white;
+  border-radius: 6px;
+  box-shadow: -4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+#btnCalcular {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.13rem 0.15rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: -3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+#btnCalcular:hover {
+  transform: scale(1.1);
+}
+
+.digite {
+  position: relative;
+  display: flex;
+}
+
+.resposta {
+  background-color: white;
+  box-shadow: -6px 6px 0px rgba(0, 0, 0, 0.1);
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.resposta h4 {
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.resposta p {
+    font-size: 1.3rem;
+    margin: 0 .5rem;
+}

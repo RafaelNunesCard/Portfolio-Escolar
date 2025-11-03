@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>DESCUBRA SUA IDADE</h1>
+            <input type="checkbox" name="clique" id="clique" hidden>
+            <label for="clique" class="bnt">
+                CLIQUE EM MIM!
+            </label>
+
+            <form id="formIdade">
+                <div class="digite">
+                    <label for="nascimento">Digite sua data de nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                    <input type="button" id="btnCalcular" value=" ✓ ">
+                </div>
+                <div class="resposta">
+                    <h4>Resultado:</h4>
+                    <p id="resultado"></p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>

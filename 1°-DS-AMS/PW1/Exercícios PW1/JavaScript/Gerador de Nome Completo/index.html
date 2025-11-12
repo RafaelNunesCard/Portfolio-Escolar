@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Nome Completo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Por favor Ralf ou Rebeca me deixe com MB S2 -_- -->
+    <main>
+        <section>
+            <h1>Gerador de Nome Completo</h1>
+            <input type="checkbox" name="clique" id="clique" hidden>
+            <label for="clique" class="bnt">
+                CLIQUE EM MIM!
+            </label>
+
+            <form id="formIdade">
+                <div class="digite">
+                    <label for="nome sobre">Digite o seu Nome e Sobre Nome:</label>
+                    <input type="text" class="l" id="nome" name="nome" required>
+                    <input type="text" class="l" id="sobre" name="sobre" required>
+
+                    <input type="button" onclick="verificar()" id="btnCalcular" value=" ✓ ">
+                </div>
+                <div class="resposta">
+                    <h4>Resultado:</h4>
+                    <p id="resultado">
+                        
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -3,5 +3,8 @@ var nome = document.getElementById('nome')
 var sobre = document.getElementById('sobre')
 
 function verificar(){ 
-    res.textContent = `O seu ${nome} ${sobre}`
+    let n = nome.value
+    let s = sobre.value
+
+    res.textContent = `O seu nome completo é ${n} ${s}`
 }

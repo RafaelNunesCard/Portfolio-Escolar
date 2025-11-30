@@ -326,14 +326,15 @@ header div {
 
   .tema {
     flex-direction: column;
+    gap: 30px;
   }
 
   .conteudo {
     width: 100%;
-    height: 55vh;
+    height: 38vh;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: end;
   }
 
   .conteudo h1 {

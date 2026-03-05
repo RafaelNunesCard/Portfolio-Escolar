@@ -1,6 +1,6 @@
-package.com.mycompany.hipotenusa;
+package.com.mycompany.metodo05;
 
-public class Hipotenusa {
+public class metodo05 {
     
     public static void main(String[] args) {
         double hipotenusa,cateto1,cateto2;

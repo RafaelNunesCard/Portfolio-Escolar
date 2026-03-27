@@ -50,6 +50,7 @@ header a {
 
 header a:hover {
   color: var(--cor-vermelho);
+  font-weight: bold;
 }
 
 .link-ativado {

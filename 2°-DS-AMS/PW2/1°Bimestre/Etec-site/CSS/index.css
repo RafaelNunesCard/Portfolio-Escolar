@@ -114,18 +114,21 @@ button.prev:hover {
   border-radius: 0px;
 }
 
+.carousel-img img{
+  width: 100%;
+}
 /* ============== Destaque ============== */
 
 .container-destaque {
   width: 100%;
   margin: 30px 0;
   display: flex;
-  gap: 54px;
+  justify-content: space-between;
 }
 
 .card-destaque {
-  width: 300px;
-  height: 369px;
+  width: 330px;
+  height: 380px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -170,11 +173,11 @@ button.prev:hover {
   width: 100%;
   display: flex;
   margin: 30px 0;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .link {
-  width: 175px;
+  width: 200px;
   height: 250px;
   gap: 34px;
 

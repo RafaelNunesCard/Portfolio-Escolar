@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Etec-Zona Leste</title>
+  </head>
+  <body>
+    <?php
+      $pagina = "home";
+      include 'header.php';
+    ?>
+    <main>
+      <section class="carousel">
+        <button class="prev">‹</button>
+        <div class="carousel-track">
+          <div class="slide">
+            <div class="caixa-texto">
+              <h1>Etec-Zona Leste</h1>
+              <p>Veja nossos cursos:</p>
+              <a href=""><button>Acessar</button></a>
+            </div>
+            <div class="carousel-img">
+              <img src="/img/Carrousel1.png" alt="Etec" />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caixa-texto">
+              <h1>Conheça nossa Infraestrutura</h1>
+              <p>
+                Contamos com uma infraestrutura moderna, laboratório e salas
+                equipadas com televisões, computadore, notebooks, impressoras 3D
+                e muitos outros componentes propícios aos projetos que
+                desenvolvemos durante a jornada dos estudantes.
+              </p>
+            </div>
+            <div class="carousel-img">
+              <img src="/img/Sala Maker.jpg" alt="Etec" />
+            </div>
+          </div>
+          <div class="slide">
+            <div class="caixa-texto">
+              <h1>Etec-Zona Leste</h1>
+              <p>
+                A Etec Zona Leste oferece cursos técnicos gratuitos que tem como
+                objetivo
+                <span class="negrito"
+                  >formar profissionais qualificados para o mercado de
+                  trabalho</span
+                >
+                e, ao mesmo tempo, proporcionar
+                <span class="negrito">base teórica e prática</span> em diversas
+                áreas do conhecimento.
+              </p>
+            </div>
+            <div class="carousel-img">
+              <img src="/img/Sala Maker.jpg" alt="Etec" />
+            </div>
+          </div>
+        </div>
+        <button class="next">›</button>
+      </section>
+
+      <section class="destaques">
+        <div class="titulos">
+          <h2>Destaques <i class="ri-megaphone-line"></i></h2>
+        </div>
+        <div class="container-destaque">
+          <div class="card-destaque">
+            <img src="/img/Inova.png" alt="Inova" />
+            <h3>1º DESAFIO 24 HORAS DE INOVAÇÃO GLOBAL – INOVA CPS</h3>
+            <button>Leia +</button>
+          </div>
+
+          <div class="card-destaque">
+            <img src="/img/FeiraTec.png" alt="Feira Tec" />
+            <h3>Feira Tecnológica 2025 — Etec Zona Leste</h3>
+            <button>Leia +</button>
+          </div>
+
+          <div class="card-destaque">
+            <img src="/img/CNI.png" alt="CNIT" />
+            <h3>
+              AMS da Etec Zona Leste recebe uma premiação no CNIT do Estado de
+              São Paulo.
+            </h3>
+            <button>Leia +</button>
+          </div>
+
+          <div class="card-destaque">
+            <img src="img/ProvaPaulista.png" alt="Prova Paulista" />
+            <h3>PROVA PAULISTA SERIADO – 2025</h3>
+            <button>Leia +</button>
+          </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="titulos">
+          <h2>Links úteis <i class="ri-links-line"></i></h2>
+        </div>
+
+        <div class="container-link">
+          <div class="link">
+            <i class="ri-survey-line"></i>
+            <h3>Oportunidades</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <i class="ri-contacts-book-line"></i>
+            <h3>PPG</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <i class="ri-contacts-book-2-line"></i>
+            <h3>Manual dos Alunos</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <i class="ri-book-open-line"></i>
+            <h3>Vestibulinho</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <i class="ri-file-text-line"></i>
+            <h3>Regimento Comum</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <h1 class="NSA-titulo">N</h1>
+            <h3>NSA</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <div class="link">
+            <i class="ri-mail-open-line"></i>
+            <h3>E-Mail Institucional</h3>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <?php 
+      include 'footer.php';
+    ?>
+    <script src="/JS/Carousel.js"></script>
+  </body>
+</html>

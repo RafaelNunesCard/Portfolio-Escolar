@@ -1,0 +1,71 @@
+:root {
+  --cor-vermelho: #cf2e2e;
+  --cor-vermelho-hover: #b02828;
+  --cor-preto: #09090a;
+  --cor-cinza: #41414d;
+  --cor-cinza-claro: #737380;
+  --cor-pesquisar: #f3f5f6;
+  --cor-background: #f0f0f5;
+  --cor-branco-quente: #fbfbf9;
+  --cor-branco: #ffffff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  background: var(--cor-branco);
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.sucesso {
+  background: #e6ffed;
+  color: #2e7d32;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.erro {
+  background: #ffe6e6;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info p {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+strong {
+  color: var(--cor-cinza);
+}
+
+.btn {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  background: var(--cor-vermelho);
+  color: var(--cor-branco-quente);
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  font-size: 23px;
+}
+
+.btn:hover {
+  background: var(--cor-vermelho-hover);
+  transform: scale(1.05);
+}

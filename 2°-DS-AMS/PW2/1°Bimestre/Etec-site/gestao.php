@@ -156,7 +156,7 @@
 
         <div class="card-professor">
           <div class="professor-img">
-            <img src="/img/professores/" alt="Gilmar" />
+            <img src="/img/professores/Gilmar.jpeg" alt="Gilmar" />
           </div>
           <h2>Gilmar</h2>
           <div>

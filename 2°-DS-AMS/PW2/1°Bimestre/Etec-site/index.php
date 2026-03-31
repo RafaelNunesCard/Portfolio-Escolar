@@ -27,7 +27,7 @@
               <a href=""><button>Acessar</button></a>
             </div>
             <div class="carousel-img">
-              <img src="/img/Carrousel1.png" alt="Etec" />
+              <img src="/img/Etec2.webp" alt="Etec" />
             </div>
           </div>
           <div class="slide">
@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="carousel-img">
-              <img src="/img/Sala Maker.jpg" alt="Etec" />
+              <img src="/img/Carrousel1.png" alt="Etec" />
             </div>
           </div>
         </div>

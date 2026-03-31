@@ -33,7 +33,7 @@ header {
 main {
   grid-area: main;
   padding: 30px 47px;
-  height: 90vh;
+  height: 95vh;
   overflow-y: auto;
   scroll-behavior: smooth;
 }

@@ -217,6 +217,10 @@ button.prev:hover {
   color: var(--cor-branco);
 }
 
+.link:hover .NSA-titulo {
+  color: var(--cor-branco);
+}
+
 .link:hover i{
   color: var(--cor-branco);
 }

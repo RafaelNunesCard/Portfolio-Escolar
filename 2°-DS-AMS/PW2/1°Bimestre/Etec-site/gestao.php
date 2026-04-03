@@ -77,8 +77,38 @@
       </div>
 
       <div class="alunos">
-        <div class="tabela">
-          <h3>Tabela de Sim</h3>
+        <div class="tabela-melhores-alunos">
+          <h3>Melhores Alunos</h3>
+          <div>
+            <span>Aluno</span>
+            <span>Curso</span>
+            <span>Média de notas</span>
+          </div>
+          <div>
+            <h4>Antonio Bernadino</h4>
+            <h5>3°DS-AMS</h5>
+            <p>8.1/10</p>
+          </div>
+          <div>
+            <h4>Julia Bergstron</h4>
+            <h5>2°DS-AMS</h5>
+            <p>7.7/10</p>
+          </div>
+          <div>
+            <h4>Pedro Rodrigues</h4>
+            <h5>2°DS-AMS</h5>
+            <p>7.4/10</p>
+          </div>
+          <div>
+            <h4>Derek Batinga</h4>
+            <h5>2°DS-AMS</h5>
+            <p>7.2/10</p>
+          </div>
+          <div>
+            <h4>Rafael Nunes</h4>
+            <h5>2°DS-AMS</h5>
+            <p>7.1/10</p>
+          </div>
         </div>
         <div class="tabela-alunos">
           <h3>Tabela de Alunos</h3>
@@ -131,7 +161,7 @@
             <p><i class="ri-checkbox-blank-circle-fill"></i> Criador de BD</p>
             <p>
               <i class="ri-checkbox-blank-circle-fill"></i> Aulas de DS, BD, SE,
-              PAM, PW, DD e a porra toda.
+              PAM, FI, PW, DD e o que ele quiser.
             </p>
           </div>
         </div>
@@ -143,13 +173,11 @@
           <h2>Ralf</h2>
           <div>
             <p>
-              <i class="ri-checkbox-blank-circle-fill"></i> Professor dos
-              professores
+              <i class="ri-checkbox-blank-circle-fill"></i> Trabalhador do DTI
             </p>
-            <p><i class="ri-checkbox-blank-circle-fill"></i> Criador de BD</p>
+            <p><i class="ri-checkbox-blank-circle-fill"></i> TI médio</p>
             <p>
-              <i class="ri-checkbox-blank-circle-fill"></i> Aulas de DS, BD, SE,
-              PAM, PW, DD e a porra toda.
+              <i class="ri-checkbox-blank-circle-fill"></i> Aulas de Redes, DD, PW e Hardware.
             </p>
           </div>
         </div>
@@ -161,13 +189,11 @@
           <h2>Gilmar</h2>
           <div>
             <p>
-              <i class="ri-checkbox-blank-circle-fill"></i> Professor dos
-              professores
+              <i class="ri-checkbox-blank-circle-fill"></i> Professor-Novo com potencial
             </p>
-            <p><i class="ri-checkbox-blank-circle-fill"></i> Criador de BD</p>
+            <p><i class="ri-checkbox-blank-circle-fill"></i> Salvador de TPA</p>
             <p>
-              <i class="ri-checkbox-blank-circle-fill"></i> Aulas de DS, BD, SE,
-              PAM, PW, DD e a porra toda.
+              <i class="ri-checkbox-blank-circle-fill"></i> Aulas de BD, PW e TPA.
             </p>
           </div>
         </div>
@@ -182,12 +208,12 @@
           <h3 class="tabela-titulo">Tabela de Popularidade</h3>
           <div class="container-tabela">
             <div class="grafico">
-              <div class="linha" style="bottom: 0%">0%</div>
-              <div class="linha" style="bottom: 20%">20%</div>
-              <div class="linha" style="bottom: 40%">40%</div>
-              <div class="linha" style="bottom: 60%">60%</div>
-              <div class="linha" style="bottom: 80%">80%</div>
-              <div class="linha" style="bottom: 100%">100%</div>
+              <div class="linha" style="bottom: -4%">0%</div>
+              <div class="linha" style="bottom: 16%">20%</div>
+              <div class="linha" style="bottom: 36%">40%</div>
+              <div class="linha" style="bottom: 56%">60%</div>
+              <div class="linha" style="bottom: 76%">80%</div>
+              <div class="linha" style="bottom: 96%">100%</div>
 
               <div class="barra" data-valor="40%" style="height: 40%">
                 <span>Administração</span>

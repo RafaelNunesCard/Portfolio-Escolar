@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="carousel-img">
-              <img src="/img/Carrousel1.png" alt="Etec" />
+              <img src="/img/Carrousel1.png" class="altura-maior" alt="Etec" />
             </div>
           </div>
         </div>

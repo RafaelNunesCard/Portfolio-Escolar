@@ -115,6 +115,10 @@ button.prev:hover {
 }
 
 .carousel-img img{
+  height: 100%;
+}
+
+.altura-maior{
   width: 100%;
 }
 /* ============== Destaque ============== */
@@ -124,6 +128,7 @@ button.prev:hover {
   margin: 30px 0;
   display: flex;
   justify-content: space-between;
+  gap: 25px;
 }
 
 .card-destaque {
@@ -174,6 +179,7 @@ button.prev:hover {
   display: flex;
   margin: 30px 0;
   justify-content: space-between;
+  gap: 15px;
 }
 
 .link {

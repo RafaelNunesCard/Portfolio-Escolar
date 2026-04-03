@@ -101,6 +101,7 @@ h3::before {
   display: flex;
   justify-content: space-between;
   margin: 49px 0;
+  gap: 20px;
 }
 
 .card-dashboard {
@@ -138,13 +139,43 @@ h3::before {
   margin: 49px 0;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
-.tabela {
+.tabela-melhores-alunos {
   width: 1029px;
   border-radius: 10px;
   position: relative;
   background: var(--cor-branco);
+  padding: 27px 20px;
+}
+
+.tabela-melhores-alunos h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.tabela-melhores-alunos span:nth-child(1){
+  width: 40%;
+}
+
+.tabela-melhores-alunos h4 {
+  font-size: 30px;
+  width: 30%;
+}
+
+.tabela-melhores-alunos div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  padding: 15px 0;
+
+  border-bottom: 5px solid var(--cor-background);
+}
+
+.tabela-melhores-alunos p {
+  color: var(--cor-vermelho);
 }
 
 .tabela-alunos {
@@ -183,10 +214,11 @@ h3::before {
   display: grid;
   grid-template-columns: repeat(3 , 1fr);
   margin: 49px 0;
+  gap: 10px;
 }
 
 .card-professor {
-  width: 80%;
+  width: 87%;
   height: 392px;
   padding: 20px 22px;
   gap: 20px;
@@ -236,6 +268,12 @@ h3::before {
 
 /*=============== Tabela de Popularidade ===============*/
 
+.tabela {
+  width: 1029px;
+  border-radius: 10px;
+  position: relative;
+  background: var(--cor-branco);
+}
 .tabela-titulo {
   font-size: 40px;
   margin-bottom: 50px;

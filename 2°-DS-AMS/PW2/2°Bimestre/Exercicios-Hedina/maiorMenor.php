@@ -37,7 +37,7 @@
                             rsort($nums);
                             
                             for($i = 0; $i < count($nums); $i++){
-                                echo "[" . $i . "]- " . $nums[$i] . "<br>";
+                                echo  ($i + 1) . "°- " . $nums[$i] . "<br>";
                             }
                         ?>
                     </p>
